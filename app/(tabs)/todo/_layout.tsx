@@ -1,0 +1,9 @@
+import { Stack } from "expo-router";
+
+export default function TodoLayout() {
+  return (
+    <Stack>
+      <Stack.Screen name="index" options={{ title: "ToDo List" }} />
+    </Stack>
+  );
+}
